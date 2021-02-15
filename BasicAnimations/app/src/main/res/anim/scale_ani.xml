@@ -6,8 +6,7 @@
     android:fromXScale="0.5"
     android:toXScale="1.5"
     android:fromYScale="0.5"
-    android:toYScale="1.5"
-    android:repeatCount="infinite">
+    android:toYScale="1.5">
 
 <!--
   pivotX : X축 값 (50% -> X축 중앙)

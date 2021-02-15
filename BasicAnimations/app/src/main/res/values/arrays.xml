@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="interpolator">
+        <item>linear</item>
+        <item>accelerate</item>
+        <item>anticipate</item>
+        <item>bounce</item>
+        <item>cycle</item>
+        <item>decelerate</item>
+        <item>overshoot</item>
+        <item>accelerate_decelerate</item>
+        <item>anticipate_overshoot</item>
+    </string-array>
+</resources>
