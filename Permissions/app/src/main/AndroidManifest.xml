@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pleasand.j.permissions">
+
+    <!-- 권한은 설치시간권한, 런타임권한, 특별권한 세가지 보호 수준으로 나뉨 -->
+    <!-- 일반 권한 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>   <!-- 네트워크 연결 상태 확인 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>  <!-- 와이파이 상태 확인 -->
+    <uses-permission android:name="android.permission.BLUETOOTH"/>  <!-- 블루투스 상태 확인 -->
+    <uses-permission android:name="android.permission.INTERNET"/>   <!-- 네트워크 및 인터넷 사용 -->
+    <uses-permission android:name="android.permission.NFC"/>    <!-- 기기간 근거리 통신 사용 -->
+    <uses-permission android:name="android.permission.SET_ALARM"/>  <!-- 알람설정 -->
+    <uses-permission android:name="android.permission.VIBRATE"/>    <!-- 진동설정 -->
+    <uses-permission android:name="android.permission.CAMERA"/>     <!-- 카메라 -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Permissions">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
