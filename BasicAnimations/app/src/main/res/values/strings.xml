@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicAnimations</string>
+    <string name="twinAnimSummary">트윈 애니메이션 : XML로 정의된 애니메이션으로 이동, 투명, 회전, 확장을 정의한다.</string>
+</resources>

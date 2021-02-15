@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:fromDegrees="0"
+    android:toDegrees="360"
+    android:repeatCount="infinite">
+
+<!--
+  pivotX : X축 중심값
+  pivotY : Y축 중심값
+  fromDegrees : 시작 각도
+  toDegrees : 끝 각도(360도)
+  -->
+</rotate>
