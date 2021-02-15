@@ -1,3 +1,1 @@
-# AndroidSamples
-# AndroidSamples
 # AndroidApps
