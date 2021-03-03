@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">BasicAnimations</string>
-    <string name="twinAnimSummary">트윈 애니메이션 : XML로 정의한 애니메이션으로 뷰의 이동, 투명, 회전, 확장을 정의한다.</string>
-    <string name="interpolatorSummary">인터폴레이터 : 애니메이션의 시작과 끝을 연결하는 방법이다. 가속, 감속등 궤적을 정의한다.</string>
-</resources>
